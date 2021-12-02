@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className="buttons hstack">
       {buttons.map((data, key) =>
-          <div className="butt">
+          <div className="button">
 
           </div>
         )}
