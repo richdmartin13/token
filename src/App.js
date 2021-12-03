@@ -25,7 +25,6 @@ function App() {
         <h3>{tagline}</h3>
         <hr></hr>
         <br/>
-        <h3>About Me</h3>
         <p>{bio}</p>
       </div>
       </div>
