@@ -110,14 +110,11 @@ section {
     background: #3c31dd;
 }
 
-.spacer {
+.waves {
+    background-image: url('./waves.svg');
     aspect-ratio: 1280/1280;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.waves {
-    background-image: url('./waves.svg');
 }
