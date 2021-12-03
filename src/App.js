@@ -23,7 +23,6 @@ function App() {
           <h2>{name}</h2>
         </div>
         <h3>{tagline}</h3>
-        <hr></hr>
         <br/>
         <p>{bio}</p>
       </div>
