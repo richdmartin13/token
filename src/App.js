@@ -5,6 +5,7 @@ function App() {
   return (
   <section className="waves">
     <div className="App vstack">
+    <div className="hstack">
       <div className="hstack">
         <div className="card hstack">
           
@@ -26,6 +27,7 @@ function App() {
         <br/>
         <h3>About Me</h3>
         <p>{bio}</p>
+      </div>
       </div>
       <br></br>
       <div className="badges hstack">
