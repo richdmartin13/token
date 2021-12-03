@@ -118,5 +118,5 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-height: 100vh;
+    height: 100vh;
 }
