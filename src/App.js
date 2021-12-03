@@ -1,9 +1,9 @@
 import { name, tagline, bio, badges, buttons } from "./config";
 import './App.css';
-import { configure } from "@testing-library/dom";
 
 function App() {
   return (
+  <section className="bubble">
     <div className="App vstack">
       <div className="hstack">
         <div className="card hstack">
@@ -36,6 +36,7 @@ function App() {
         )}
       </div>
     </div>
+    </section>
   );
 }
 
