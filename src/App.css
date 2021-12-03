@@ -46,6 +46,7 @@
 }
 
 .intro {
+  width: 100%;
   text-align: end;
 }
 
@@ -113,7 +114,8 @@ section {
 
 .waves {
     background-image: url('./waves.svg');
-    width: 100vw;
+    aspect-ratio: 1280/1280;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
