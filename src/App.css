@@ -31,6 +31,8 @@
   background-color: #212121;
   border-radius: 10px;
   box-shadow: 0 0 2px 4px rgba(0,0,0,0.2);
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .profile {
@@ -40,6 +42,10 @@
   border-radius: 20px;
   margin-top: 30px;
   margin-right: 10px;
+}
+
+.intro {
+  text-align: end;
 }
 
 .badge {
