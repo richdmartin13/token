@@ -8,8 +8,10 @@ function App() {
       <div className="hstack">
         <div className="hstack">
           <div className="card hstack">
-            <h2 className="intro">{name}</h2>
-            <h3 className="intro">{tagline}</h3>
+            <div className="vstack">
+              <h2 className="intro">{name}</h2>
+              <h3 className="intro">{tagline}</h3>
+            </div>
           </div>
         </div>
         <div className="buttons hstack">
