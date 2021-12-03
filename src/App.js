@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-  <section className="curve">
+  <section className="waves">
     <div className="App vstack">
       <div className="hstack">
         <div className="card hstack">
