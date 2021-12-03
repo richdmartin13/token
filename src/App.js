@@ -8,7 +8,7 @@ function App() {
       <div className="hstack">
         <div className="hstack">
           <div className="card hstack">
-            <div className="vstack">
+            <div className="vstack flex-end">
               <h2 className="intro">{name}</h2>
               <h3 className="intro">{tagline}</h3>
             </div>
