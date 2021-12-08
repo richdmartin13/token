@@ -1,5 +1,5 @@
 export const name = "Richard Martin"
-export const tagline = "Front-End Developer"
+export const tagline = "Building digital products, brands & experience"
 export const bio = "I'm an International Business graduate from Maryville College, and I spent the past 3 months traveling Europe."
 export const badges = [
     {

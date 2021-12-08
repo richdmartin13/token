@@ -1,32 +1,34 @@
 import { name, tagline, bio, badges, buttons } from "./config";
 import './App.css';
+import avatar from "./assets/img/avatar.png";
 
 function App() {
   return (
-  <section className="waves">
-    <div className="App vstack">
-      <div className="hstack">
-        <div className="hstack">
-          <div className="card hstack">
-            <div className="vstack flex-end">
-              <h2 className="intro">{name}</h2>
-              <h3 className="intro">{tagline}</h3>
-            </div>
-          </div>
-        </div>
-        <div className="buttons hstack">
-          {buttons.map((data, key) =>
-          <div className="button">
-
-          </div>
-        )}
-        </div>
-        <div className="bio vstack">
-          <h3>About Me</h3>
-          <p>{bio}</p>
-        </div>
+    <div className="App vstack flex-start" dir="ltr">
+      <div className="menu hstack space-between snap-point">
+        <p>item</p>
+        <p>item</p>
+        <p>item</p>
       </div>
-      <br></br>
+
+      <div className="hero hstack waves snap-point">
+        <div className="vstack">
+          <h1>{tagline}</h1>
+          <div className="buttons hstack flex-start">
+            {buttons.map((data, key) =>
+              <a className="button-primary" href={data.url}>
+                {data.name}
+              </a>
+            )}
+          </div>
+        </div>
+        <img src={avatar} className="avatar" />
+      </div>
+      <div className="bio vstack snap-point">
+        <h3>About Me</h3>
+        <p>{bio}</p>
+      </div>
+
       <div className="badges hstack">
         {badges.map((data, key) =>
           <div className="badge">
@@ -34,8 +36,8 @@ function App() {
           </div>
         )}
       </div>
+
     </div>
-    </section>
   );
 }
 
